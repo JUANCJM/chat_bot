@@ -26,7 +26,7 @@ def enviar_mensaje(conn):
         conn.privmsg(canal, msj2)
         print(f"Mensaje enviado: {msj2}")
         time.sleep(400)
-        msj3 = "buena partida, GG"
+        msj3 = "buena charla, GG"
         conn.privmsg(canal, msj3)
         print(f"Mensaje enviado: {msj3}")
         time.sleep(400)
