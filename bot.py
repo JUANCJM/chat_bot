@@ -18,7 +18,7 @@ def enviar_mensaje(conn):
         conn.privmsg(canal, mensaje)
         print(f"Mensaje enviado: {mensaje}")
         time.sleep(400)  # 50 segundos
-        msj1 = "¡No olvides seguir devuelta!"
+        msj1 = "que juego es?"
         conn.privmsg(canal, msj1)
         print(f"Mensaje enviado: {msj1}")
         time.sleep(400)
