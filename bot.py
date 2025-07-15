@@ -3,11 +3,11 @@ import time
 import threading
 
 # Configura estos valores
-server = "irc.chat.twitch.tv"
+server = "irc.chat.twitch.tv"  
 port = 6667
 nickname = "xxjuancjmxx"
 token = "oauth:j1ikoit1zvcdool9iocxhz9uyhi5vh"
-canal = "#Jairo_Panda"  # Siempre con #
+canal = "#616VACIO"  # Siempre con #
 
 # Crear conexión IRC
 reactor = irc.client.Reactor()
